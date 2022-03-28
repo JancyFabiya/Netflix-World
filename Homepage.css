@@ -1,0 +1,423 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.mainpage{
+    border: solid 1px;
+    width: 100%;;
+    height: 744px;
+    /* flex: 0px; */
+    margin: 0;
+    background-image: url(/NETFIX/images/IN-en-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: 100%;  
+}
+
+.image_gradint
+{
+    border: solid 1px;
+    width: 100%;;
+    height: 744px;
+    margin: 0;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+.top_div{
+    width: 100%;
+    height: 10%;
+    /* background: white; */
+    right: 39px;
+    padding-top: 25px;
+    padding-left: 43px;
+}
+.left_move{
+     padding-left: 30%; 
+     /* background: red;  */
+    margin-left: 50%;
+    margin-top: -3%;
+}
+#lang_select{
+    background: rgb(14 14 14 / 40%);
+    border: 1px solid #aaa;
+    color: white;
+    font-size: .875rem;
+    width: 84px;
+    height: 39px;
+    border-radius: 5%;
+    /* image-rendering:(images/menulist.PNG) ; */
+    
+    /* background-color: black; */ 
+}
+.btn_signin{
+    width: 84px;
+    height: 39px;
+    border-radius: 5%;
+    color: white;
+    font-size: .875rem;
+    background: red;
+    margin-left: 30px;
+    border-radius: 11%
+}
+.middle_story{
+    width: 97%;
+    height:  448px;
+    /* background: red; */
+    padding-left: 3%;
+    color: white;
+    padding-top: 7%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.title_story{
+    font-size: 4rem;
+    
+}
+.subtitle{
+    font-size: 1.625rem
+    
+   
+}
+
+.email_form_lookup{
+    width: 50%;
+    height: 16%;
+    background: white;
+    margin-left: 324px;
+    display: flex;
+}
+.emailadd{
+    width: 25%;
+    height: 72px;
+   
+}
+#email_font{
+    font-size: medium;
+    color: #aaa;
+    height: 70px;
+    width: 180px;
+    border: white;
+}
+#btn_div{
+    width: 25%;
+    height: 72px;
+    /* background: blue; */
+    padding-left: 50%; 
+}
+.email_btn{
+    width: 132%;
+    height: 101%;
+    border-radius: -1%;
+    color: white;
+    font-size: 1.875rem;
+    background: red;
+    margin-left: -12px;
+    margin-top: -1px;
+}
+
+.second{
+    background: black;
+    padding: 1px;
+    width: 100%;
+    height: 458px;
+}
+
+.second_main{
+    width: 82%;
+    height: 341px;
+    /* background: orange; */
+    margin-left: 128px;
+    margin-top: 61px;
+}
+.second_first_inner{
+    width: 54%;;
+    height: 340px;;
+    /* background: yellow; */
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white; 
+    text-align: left;   
+}
+    #story{
+        font-size: 3.125rem;
+    line-height: 5.1;
+    margin-bottom: -6.5rem;
+    margin-left: 4.1rem;
+       
+    }
+    #story1{
+        font-size: 1.625rem;
+        font-weight: 400;
+        padding-bottom: 93px;
+        margin-left: 4.1rem;
+    }
+.second_inner_right{
+    width: 39%;
+    height: 339px;
+    margin-left: 924px;
+    /* background: violet; */
+    margin-top: -340px;
+    margin-left: 758px;
+    }
+.three{
+    background: black;
+    padding: 1px;
+    width: 100%;
+    height: 458px;
+}
+.three_main{
+    width: 80%;
+    height: 79%;
+    /* background: black; */
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.animation{
+    width: 22%;
+    height: 21%;
+    background: black;
+    padding-top: 0%;
+    margin-top: -7%;
+    margin-left: 5%;
+    border: 2px solid rgba(255,255,255,.25);
+    align-items: center;
+    position: absolute;
+}
+.inner_small{
+    width: 5em;
+    height: 5em;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.story_animation{
+    width: 11em;
+    height: 3em;
+    margin-left: 26%;
+    margin-top: -17%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.first_story{
+    width:9em ;
+    height: 1.5em;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    /* font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif; */
+}
+
+.second_story{
+    width:9em ;
+    height: 1.5em;  
+    font-size: .9em;
+    color: #0071eb;
+    font-weight: 400;
+     
+}
+.downloading_video{
+    width: 5em;
+    height: 3em;
+    margin-left: 17em;
+    margin-top: -7ex;
+    background: url(videos/download-icon.gif);
+    padding-top: 5ex;
+    background-repeat: no-repeat;
+    background-size: 7ex;
+}
+.three_right{
+    width: 49%;
+    height: 89%;
+    background: black;
+    margin-left: 40%;
+    margin-top: -27%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    text-align: left;
+    padding-top: 42px;
+    padding-left: 93px;
+}
+  #subtitle{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+  #subtitle1{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.four{
+    background: black;
+    padding: 1px;
+    width: 100%;
+    height: 458px;
+}
+.four_main{
+    width: 80%;
+    height: 69%;
+    /* background: #a93a3a; */
+    margin-left: 9%;
+    margin-top: 1%;
+    padding-left: 4%;
+    padding-top: 7%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+#story_word{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+
+}
+#story_word1{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.four_right{
+    width: 44%;
+    height: 125%;
+    /* background: rgb(171, 206, 13); */
+    margin-left: 50%;
+    margin-top: -24%;
+    /* background-image: url(images/2nd_tv.png); */
+    background-size: 10%;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+   
+}
+/* .animated_video::after{
+content:url(images/2nd_tv.png);
+} */
+.five{
+    background: black;
+    padding: 1px;
+    width: 100%;
+    height: 458px;
+}
+.five_main{
+    width: 80%;
+    height: 79%;
+    /* background: white; */
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.five_right{
+    width: 49%;
+    height: 89%;
+    background: black;
+    margin-left: 43%;
+    margin-top: -29%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    text-align: left;
+    padding-top: 42px;
+    padding-left: 93px;
+}
+.six{
+    background: black;
+    padding: 1px;
+    width: 100%;
+    height: 900px;
+}
+.text1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    color: white;
+
+}
+.fre_list{
+    list-style: none;
+    width: 75%;
+    /* font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif; */
+    margin-left: 0%;
+    padding-top: 36px;
+}
+.btn_list{
+    width: 92%;
+    height: 71px;
+    /* margin-top: 30px; */
+    margin-right: -210px;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.625rem;
+    padding: .8em 2.2em .8em 1.2em;
+    color: white;
+    background: black;
+}
+.btn_plus{
+    width: 10%;
+    height: 129%;
+    /* background: rgb(204, 199, 199); */
+    margin-left: 99%;
+    margin-top: -6%;
+    font-size: -webkit-xxx-large;
+
+}
+.last_story{
+    width: 97%;
+    height: 50%;
+    /* background: red; */
+    padding-left: -5%;
+    color: white;
+    padding-top: 34%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.footer{
+    background: black;
+    padding: 36px;
+    padding-left: 17%;
+    width: 100%;
+    height: 321px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.footer_a{
+    color: #757575;
+    text-decoration: none;
+}
+/* .footer_list{
+    list-style: none;
+    max-width: 1000px;
+    font-size: 13px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 20px;
+    /* display: grid; 
+    gap: 10px;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    /* width: 700px; */
+    /* padding: 2%; 
+  
+} */
+#list_table{
+    color: #757575;
+    font-size: 13px;
+    /* font-weight: 5; */
+    /* letter-spacing: 1px; */
+    /* margin: .4em 0; */
+    /* margin-right: 10px; */
+    padding: 1.55em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 56%;
+    text-align: left;
+
+}
+.ft_last{
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+/* .ft_list{
+    width: 10px;
+    height: 10px;
+    /* background: gold; */
+    /* border: 1px solid black; 
+    font-size: 13px;
+    line-height: 100px;
+    text-align: center;
+    margin: 10px;
+} */
